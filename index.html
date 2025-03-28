@@ -3,76 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My BEATS</title>
+    <title>My Beats</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style4.css">
-    <script src="https://kit.fontawesome.com/572eff73f2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation Bar (Left Sidebar) -->
     <div class="navbar">
+        <h2><i class="fas fa-headphones"></i> Hear My Fav Tracks</h2>
         <ul>
-            <li><a href="https://yasmincsng.github.io/website/"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="https://yasmincsng.github.io/bio/"><i class="fas fa-user"></i> Biography</a></li>
-            <li><a href="https://yasmincsng.github.io/skills/"><i class="fas fa-tools"></i> Skills</a></li>
-            <li><a href="https://yasmincsng.github.io/resume/"><i class="fas fa-file-alt"></i> Resume</a></li>
-            <li><a href="https://yasmincsng.github.io/beats/"><i class="fas fa-music"></i> My Beats</a></li>
-            <li><a href="https://yasmincsng.github.io/film/"><i class="fas fa-video"></i> My Film</a></li>
-            <li><a href="https://yasmincsng.github.io/photo-dump/"><i class="fas fa-images"></i> Photo Gallery</a></li>
+            <li><a href="../landing page/index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="../bio/index.html"><i class="fas fa-user"></i> Biography</a></li>
+            <li><a href="../skills/index.html"><i class="fas fa-tools"></i> Skills</a></li>
+            <li><a href="../resume/index.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+            <li class="active"><a href="../beats/index.html"><i class="fas fa-music"></i> My Beats</a></li>
+            <li><a href="../film/index.html"><i class="fas fa-video"></i> My Film</a></li>
+            <li><a href="../tv shows/index.html"><i class="fas fa-tv"></i> TV Shows</a></li>
+            <li><a href="../photo dump/index.html"><i class="fas fa-images"></i> Photo Gallery</a></li>
+            <li><a href="../bucket/index.html"><i class="fas fa-list-check"></i> Bucket List</a></li>
+            <li><a href="../Dream Places/index.html"><i class="fas fa-globe-americas"></i> Dream</a></li>
         </ul>
     </div>
 
-    <div class="container">
-        <h1><i class="fa-brands fa-spotify sparkle"></i> My BEATS</h1>
-        
-        <div class="audio-clip">
-            <h3><i class="fa-solid fa-music sparkle"></i> Watchamacallit <span>0:26 - 1:05</span> <span>R&B MUSIC</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> Ella Mai ft. Chris Brown</p>
-            <audio controls>
-                <source src="whatchamacallit.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <div class="header-border"></div>
+            <h1><i class="fab fa-spotify"></i> My Beats</h1>
+            <p>A chosen mix of R&B, pop, and P-Pop tracks with smooth rhythms and soulful melodies, combined with OPM hits that evoke deep emotions and raw storytelling.</p>
 
-        <div class="audio-clip">
-            <h3><i class="fa-solid fa-music sparkle"></i> FG2GF <span>1:00 - 1:30</span> <span>R&B MUSIC</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> DENY</p>
-            <audio controls>
-                <source src="fg2gf.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+        <!-- OPM Section -->
+        <section class="playlist">
+            <h2><i class="fas fa-music"></i> My OPM Music</h2>
+            <div class="song-container">
+                <div class="song">
+                    <div class="album-image">
+                        <img src="oo.jpg" alt="Ating Dalawa">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Ating Dalawa</h3>
+                    <p class="artist"><i class="fas fa-user"></i> Over October</p>
+                    <p class="genre"><i class="fas fa-tag"></i> OPM, Indie Pop</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A heartfelt song with soothing melodies that beautifully capture love and longing.</p>
+                    <audio controls>
+                        <source src="OVR.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="song">
+                    <div class="album-image">
+                        <img src="pk.jpg" alt="Paninindigan Kita">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Paninindigan Kita</h3>
+                    <p class="artist"><i class="fas fa-user"></i> Ben&Ben</p>
+                    <p class="genre"><i class="fas fa-tag"></i> OPM, Folk-Pop</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A soulful anthem about unwavering love, wrapped in Ben&Ben's signature harmonies.</p>
+                    <audio controls>
+                        <source src="PNDN.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="song">
+                    <div class="album-image">
+                        <img src="md.jpeg" alt="Dasal/Kasal">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Dasal/Kasal</h3>
+                    <p class="artist"><i class="fas fa-user"></i> Zild</p>
+                    <p class="genre"><i class="fas fa-tag"></i> OPM, Alternative Indie</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A raw and emotional track that reflects on love, commitment, and personal struggles.</p>
+                    <audio controls>
+                        <source src="DSLKS.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+        </section>
 
-        <div class="audio-clip">
-            <h3><i class="fa-solid fa-music sparkle"></i> Zero Pressure <span>0:30 - 1:00</span> <span>POP MUSIC</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> BINI</p>
-            <audio controls>
-                <source src="zeropressure.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+        <!-- Chill & R&B Section -->
+        <section class="playlist">
+            <h2><i class="fas fa-moon"></i> Chill & R&B</h2>
+            <div class="song-container">
+                <div class="song">
+                    <div class="album-image">
+                        <img src="ella.jpg" alt="Whatchamacallit">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Whatchamacallit</h3>
+                    <p class="artist"><i class="fas fa-user"></i> Ella Mai feat. Chris Brown</p>
+                    <p class="genre"><i class="fas fa-tag"></i> R&B, Hip-Hop</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A smooth, flirtatious track from Ella Mai's self-titled debut album (2018).</p>
+                    <audio controls>
+                        <source src="whatchamacallit.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="song">
+                    <div class="album-image">
+                        <img src="deny.jpg" alt="FG2GF">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> FG2GF</h3>
+                    <p class="artist"><i class="fas fa-user"></i> DENY</p>
+                    <p class="genre"><i class="fas fa-tag"></i> Pop, R&B</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A catchy and emotive song about moving on, blending pop and R&B influences.</p>
+                    <audio controls>
+                        <source src="fg2gf.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="song">
+                    <div class="album-image">
+                        <img src="zerop.jpg" alt="Zero Pressure">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Zero Pressure</h3>
+                    <p class="artist"><i class="fas fa-user"></i> BINI</p>
+                    <p class="genre"><i class="fas fa-tag"></i> Pop, R&B</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A chill yet upbeat track showcasing BINI's signature harmonies and empowering lyrics.</p>
+                    <audio controls>
+                        <source src="zeropressure.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+        </section>
 
-        <div class="audio-clip">
-            <h3><i class="fa-solid fa-music sparkle"></i> Maharani <span>1:15 - 1:45</span> <span>POP MUSIC</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> ALAMAT</p>
-            <audio controls>
-                <source src="maharani.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+        <!-- Pop & P-Pop Section -->
+        <section class="playlist">
+            <h2><i class="fas fa-star"></i> Pop & P-Pop</h2>
+            <div class="song-container">
+                <div class="song">
+                    <div class="album-image">
+                        <img src="alamatt.jpg" alt="Maharani">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Maharani</h3>
+                    <p class="artist"><i class="fas fa-user"></i> ALAMAT</p>
+                    <p class="genre"><i class="fas fa-tag"></i> Pinoy Pop (P-Pop), Ethnic Pop</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A song celebrating Filipino heritage and strength, featuring indigenous influences.</p>
+                    <audio controls>
+                        <source src="maharani.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="song">
+                    <div class="album-image">
+                        <img src="carpenter.jpg" alt="Busy Woman">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Busy Woman</h3>
+                    <p class="artist"><i class="fas fa-user"></i> Sabrina Carpenter</p>
+                    <p class="genre"><i class="fas fa-tag"></i> Pop, Dance-Pop</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> An energetic anthem about independence and self-empowerment.</p>
+                    <audio controls>
+                        <source src="busy-woman.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="song">
+                    <div class="album-image">
+                        <img src="troye.jpeg" alt="Lucky Strike">
+                        <div class="play-overlay"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3><i class="fas fa-compact-disc"></i> Lucky Strike</h3>
+                    <p class="artist"><i class="fas fa-user"></i> Troye Sivan</p>
+                    <p class="genre"><i class="fas fa-tag"></i> Indie Pop, Synth-Pop</p>
+                    <p class="description"><i class="fas fa-quote-left"></i> A dreamy and infectious love song with smooth synths and intimate lyrics.</p>
+                    <audio controls>
+                        <source src="lstrike.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+        </section>
 
-        <div class="audio-clip">
-            <h3><i class="fa-solid fa-music sparkle"></i> Busy Woman <span>0:50 - 1:20</span> <span>POP MUSIC</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> Sabrina Carpenter</p>
-            <audio controls>
-                <source src="busy-woman.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+        <!-- Back to Top Button -->
+        <div class="back-to-top-container">
+            <a href="#top" class="go-top"><i class="fas fa-arrow-up"></i> Back to Top</a>
         </div>
-    </div> 
-
-    <!-- Back to Landing Page Button -->
-    <div class="landing-container">
-        <a href="casing-landing-page.html" class="back-to-landing">Back to Landing Page</a>
     </div>
 </body>
 </html>
