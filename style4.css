@@ -1,16 +1,16 @@
 /* ===== BASE STYLES ===== */
 body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffebf3;
-    color: #000;
-    display: flex;
+    padding: 0;
+    color: #4a148c;
 }
+
 
 .main-content {
     margin-left: 260px;
     padding: 30px;
-    width: calc(100% - 260px);
 }
 
 /* ===== MY BEATS HEADER STYLES ===== */
